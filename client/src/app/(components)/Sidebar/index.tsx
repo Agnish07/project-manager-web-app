@@ -33,6 +33,7 @@ const Sidebar = () => {
                         <p className='text-xs text-gray-500'>Private</p>
                     </div>
                 </div>
+                {/* NAVBAR LINKS */}
             </div>
         </div>
 
