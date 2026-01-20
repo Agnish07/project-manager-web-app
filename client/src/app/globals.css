@@ -1,23 +1,19 @@
-@import "tailwindcss";
-/* @import "tailwindcss/preflight";
-@import "tailwindcss/utilities"; */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
 
 *,
 *::before,
-*::after{
+*::after {
   box-sizing: border-box;
 }
 
 html,
-body,
-#root,
-.app {
+body {
   height: 100%;
   width: 100%;
-  @apply text-sm;
-  @apply bg-gray-500;
-  @apply text-gray-900;
 }
 
-
-
+body {
+  @apply text-sm bg-gray-200 text-gray-900;
+}
