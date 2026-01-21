@@ -15,5 +15,6 @@ body {
 }
 
 body {
-  @apply text-sm bg-gray-200 text-gray-900;
+  @apply text-sm bg-white text-gray-900;
+  @apply dark:bg-black dark:text-white;
 }

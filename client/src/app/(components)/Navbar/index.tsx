@@ -30,6 +30,7 @@ const Navbar = () => {
         <div className="relative w-50">
           <Search className="absolute left-2 top-1/2 h-5 w-5 -translate-y-1/2 dark:text-white" />
           <input
+            type='search'
             className="w-full rounded bg-gray-100 p-2 pl-8 focus:outline-none dark:bg-gray-700 dark:text-white"
             placeholder="Search..."
           />
